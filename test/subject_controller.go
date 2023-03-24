@@ -2,7 +2,7 @@ package test
 
 import (
 	"fmt"
-	"skyscraper/framework"
+	"github.com/SKYBroGardenLush/skyscraper/framework"
 	"skyscraper/provider/demo"
 )
 

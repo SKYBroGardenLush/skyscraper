@@ -1,8 +1,8 @@
 package id
 
 import (
-	"skyscraper/framework"
-	"skyscraper/framework/containerService/contract"
+	"github.com/SKYBroGardenLush/skyscraper/framework"
+	"github.com/SKYBroGardenLush/skyscraper/framework/containerService/contract"
 )
 
 type IDProvider struct {

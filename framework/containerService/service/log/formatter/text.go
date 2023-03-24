@@ -3,7 +3,7 @@ package formatter
 import (
 	"bytes"
 	"fmt"
-	"skyscraper/framework/containerService/contract"
+	"github.com/SKYBroGardenLush/skyscraper/framework/containerService/contract"
 	"time"
 )
 

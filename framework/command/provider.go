@@ -3,17 +3,16 @@ package command
 import (
 	"fmt"
 	"github.com/AlecAivazis/survey/v2"
+	"github.com/SKYBroGardenLush/skyscraper/framework"
+	"github.com/SKYBroGardenLush/skyscraper/framework/cobra"
+	"github.com/SKYBroGardenLush/skyscraper/framework/containerService/contract"
+	"github.com/SKYBroGardenLush/skyscraper/framework/utils"
 	"github.com/jianfengye/collection"
-	"skyscraper/framework"
-	"skyscraper/framework/containerService/contract"
-	"skyscraper/framework/utils"
-	"text/template"
-
 	"github.com/pkg/errors"
 	"os"
 	"path/filepath"
-	"skyscraper/framework/cobra"
 	"strings"
+	"text/template"
 )
 
 // 初始化provider相关服务

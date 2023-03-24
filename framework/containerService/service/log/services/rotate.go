@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"github.com/gohade/hade/framework/util"
 	rotatelogs "github.com/lestrrat-go/file-rotatelogs"
-	"skyscraper/framework/containerService/contract"
+	"github.com/SKYBroGardenLush/skyscraper/framework/containerService/contract"
 
 	"github.com/pkg/errors"
 	"os"
 	"path/filepath"
-	"skyscraper/framework"
+	"github.com/SKYBroGardenLush/skyscraper/framework"
 	"time"
 )
 

@@ -3,8 +3,8 @@ package distributed
 //TODO 解决win环境下分布式读写文件
 //
 //import (
-//	"skyscraper/framework"
-//	"skyscraper/framework/containerService/contract"
+//	"github.com/SKYBroGardenLush/skyscraper/framework"
+//	"github.com/SKYBroGardenLush/skyscraper/framework/containerService/contract"
 //)
 //
 //// LocalDistributedProvider 提供App的具体实现方法

@@ -5,7 +5,7 @@ import (
 	"github.com/gohade/hade/framework/provider/log/formatter"
 	"github.com/gohade/hade/framework/provider/log/services"
 	"io"
-	"skyscraper/framework"
+	"github.com/SKYBroGardenLush/skyscraper/framework"
 	"strings"
 )
 

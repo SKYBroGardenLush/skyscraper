@@ -1,9 +1,9 @@
 package console
 
 import (
-	"skyscraper/framework"
-	"skyscraper/framework/cobra"
-	"skyscraper/framework/command"
+	"github.com/SKYBroGardenLush/skyscraper/framework"
+	"github.com/SKYBroGardenLush/skyscraper/framework/cobra"
+	"github.com/SKYBroGardenLush/skyscraper/framework/command"
 )
 
 // RunCommand  初始化根Command并运行

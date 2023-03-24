@@ -2,7 +2,7 @@ package demo
 
 import (
 	"fmt"
-	"skyscraper/framework"
+	"github.com/SKYBroGardenLush/skyscraper/framework"
 )
 
 // DemoServiceProvider 服务提供方

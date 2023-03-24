@@ -1,7 +1,7 @@
 package test
 
 import (
-	"skyscraper/framework"
+	"github.com/SKYBroGardenLush/skyscraper/framework"
 	"time"
 )
 

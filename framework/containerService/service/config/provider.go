@@ -3,7 +3,7 @@ package config
 import (
 	"github.com/gohade/hade/framework/contract"
 	"path/filepath"
-	"skyscraper/framework"
+	"github.com/SKYBroGardenLush/skyscraper/framework"
 )
 
 type ConfigProvider struct{}

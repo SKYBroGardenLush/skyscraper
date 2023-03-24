@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"encoding/json"
 	"github.com/pkg/errors"
-	"skyscraper/framework/containerService/contract"
+	"github.com/SKYBroGardenLush/skyscraper/framework/containerService/contract"
 	"time"
 )
 

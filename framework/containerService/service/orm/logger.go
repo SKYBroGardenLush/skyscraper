@@ -3,7 +3,7 @@ package orm
 import (
 	"context"
 	"gorm.io/gorm/logger"
-	"skyscraper/framework/containerService/contract"
+	"github.com/SKYBroGardenLush/skyscraper/framework/containerService/contract"
 	"time"
 )
 

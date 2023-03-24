@@ -3,8 +3,8 @@ package ssh
 import (
 	"context"
 	"golang.org/x/crypto/ssh"
-	"skyscraper/framework"
-	"skyscraper/framework/containerService/contract"
+	"github.com/SKYBroGardenLush/skyscraper/framework"
+	"github.com/SKYBroGardenLush/skyscraper/framework/containerService/contract"
 	"sync"
 )
 

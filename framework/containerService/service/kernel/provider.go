@@ -1,8 +1,8 @@
 package kernel
 
 import (
-	"skyscraper/framework"
-	"skyscraper/framework/containerService/contract"
+	"github.com/SKYBroGardenLush/skyscraper/framework"
+	"github.com/SKYBroGardenLush/skyscraper/framework/containerService/contract"
 )
 
 // KernelProvider  KernelProvider 提供web 内核

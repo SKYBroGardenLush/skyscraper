@@ -3,9 +3,9 @@ package main
 import (
 	"skyscraper/app/console"
 	"skyscraper/app/http"
-	"skyscraper/framework"
-	"skyscraper/framework/containerService/service/app"
-	"skyscraper/framework/containerService/service/kernel"
+	"github.com/SKYBroGardenLush/skyscraper/framework"
+	"github.com/SKYBroGardenLush/skyscraper/framework/containerService/service/app"
+	"github.com/SKYBroGardenLush/skyscraper/framework/containerService/service/kernel"
 )
 
 func main() {

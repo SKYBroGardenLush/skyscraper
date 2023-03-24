@@ -2,7 +2,7 @@ package middleware
 
 import (
 	"log"
-	"skyscraper/framework"
+	"github.com/SKYBroGardenLush/skyscraper/framework"
 	"time"
 )
 

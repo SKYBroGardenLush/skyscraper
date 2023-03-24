@@ -5,9 +5,9 @@ import (
 	"github.com/erikdubbelboer/gspt"
 	"os"
 	"path/filepath"
-	"skyscraper/framework/cobra"
-	"skyscraper/framework/containerService/contract"
-	"skyscraper/framework/utils"
+	"github.com/SKYBroGardenLush/skyscraper/framework/cobra"
+	"github.com/SKYBroGardenLush/skyscraper/framework/containerService/contract"
+	"github.com/SKYBroGardenLush/skyscraper/framework/utils"
 	"strconv"
 	"time"
 )

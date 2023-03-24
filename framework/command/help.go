@@ -2,8 +2,8 @@ package command
 
 import (
 	"fmt"
-	"skyscraper/framework/cobra"
-	"skyscraper/framework/containerService/contract"
+	"github.com/SKYBroGardenLush/skyscraper/framework/cobra"
+	"github.com/SKYBroGardenLush/skyscraper/framework/containerService/contract"
 )
 
 // helpCommand show current envionment

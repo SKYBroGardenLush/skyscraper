@@ -2,8 +2,8 @@ package services
 
 import (
 	"os"
-	"skyscraper/framework"
-	"skyscraper/framework/containerService/contract"
+	"github.com/SKYBroGardenLush/skyscraper/framework"
+	"github.com/SKYBroGardenLush/skyscraper/framework/containerService/contract"
 )
 
 // ConsoleLog 代表控制台输出

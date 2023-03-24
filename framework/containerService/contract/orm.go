@@ -4,7 +4,7 @@ import (
 	"github.com/go-sql-driver/mysql"
 	"gorm.io/gorm"
 	"net"
-	"skyscraper/framework"
+	"github.com/SKYBroGardenLush/skyscraper/framework"
 	"strconv"
 	"time"
 )

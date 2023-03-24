@@ -1,6 +1,6 @@
 package command
 
-import "skyscraper/framework/cobra"
+import "github.com/SKYBroGardenLush/skyscraper/framework/cobra"
 
 // AddKernelCommands will add all command/* to root command
 func AddKernelCommands(root *cobra.Command) {

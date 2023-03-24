@@ -2,7 +2,7 @@ package middleware
 
 import (
 	"fmt"
-	"skyscraper/framework"
+	"github.com/SKYBroGardenLush/skyscraper/framework"
 )
 
 func Test1() framework.ControllerHandler {

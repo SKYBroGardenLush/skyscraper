@@ -4,9 +4,9 @@ import (
 	"context"
 	"io"
 	pkgLog "log"
-	"skyscraper/framework"
-	"skyscraper/framework/containerService/contract"
-	"skyscraper/framework/containerService/service/log/formatter"
+	"github.com/SKYBroGardenLush/skyscraper/framework"
+	"github.com/SKYBroGardenLush/skyscraper/framework/containerService/contract"
+	"github.com/SKYBroGardenLush/skyscraper/framework/containerService/service/log/formatter"
 	"time"
 )
 

@@ -3,8 +3,8 @@ package orm
 import (
 	"context"
 	"gorm.io/gorm"
-	"skyscraper/framework"
-	"skyscraper/framework/containerService/contract"
+	"github.com/SKYBroGardenLush/skyscraper/framework"
+	"github.com/SKYBroGardenLush/skyscraper/framework/containerService/contract"
 )
 
 // GetBaseConfig 读取database.yaml根目录结构

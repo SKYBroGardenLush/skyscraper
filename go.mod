@@ -1,4 +1,4 @@
-module skyscraper
+module github.com/SKYBroGardenLush/skyscraper
 
 go 1.19
 

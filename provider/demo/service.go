@@ -2,7 +2,7 @@ package demo
 
 import (
 	"fmt"
-	"skyscraper/framework"
+	"github.com/SKYBroGardenLush/skyscraper/framework"
 )
 
 // DemoService 具体的接口实例

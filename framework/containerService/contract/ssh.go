@@ -3,7 +3,7 @@ package contract
 import (
 	"fmt"
 	"golang.org/x/crypto/ssh"
-	"skyscraper/framework"
+	"github.com/SKYBroGardenLush/skyscraper/framework"
 )
 
 const SSHKey = "skyscraper:ssh"

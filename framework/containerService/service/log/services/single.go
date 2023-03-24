@@ -1,12 +1,12 @@
 package services
 
 import (
+	"github.com/SKYBroGardenLush/skyscraper/framework"
+	"github.com/SKYBroGardenLush/skyscraper/framework/containerService/contract"
 	"github.com/gohade/hade/framework/util"
 	"github.com/pkg/errors"
 	"os"
 	"path/filepath"
-	"skyscraper/framework"
-	"skyscraper/framework/containerService/contract"
 )
 
 type SingleLog struct {

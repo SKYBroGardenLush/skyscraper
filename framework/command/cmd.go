@@ -7,9 +7,9 @@ import (
 	"github.com/pkg/errors"
 	"os"
 	"path/filepath"
-	"skyscraper/framework/cobra"
-	"skyscraper/framework/containerService/contract"
-	"skyscraper/framework/utils"
+	"github.com/SKYBroGardenLush/skyscraper/framework/cobra"
+	"github.com/SKYBroGardenLush/skyscraper/framework/containerService/contract"
+	"github.com/SKYBroGardenLush/skyscraper/framework/utils"
 	"strings"
 	"text/template"
 )
@@ -130,7 +130,7 @@ var cmdCreateCommand = &cobra.Command{
 var cmdTmpl string = `package {{.}}
 import (
 	"fmt"
-	"skyscraper/framework/cobra"
+	"github.com/SKYBroGardenLush/skyscraper/framework/cobra"
 )
 var {{.|title}}Command = &cobra.Command{
 	Use:   "{{.}}",

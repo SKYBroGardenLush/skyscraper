@@ -1,8 +1,8 @@
 package test
 
 import (
-	"skyscraper/framework"
-	"skyscraper/framework/middleware"
+	"github.com/SKYBroGardenLush/skyscraper/framework"
+	"github.com/SKYBroGardenLush/skyscraper/framework/middleware"
 )
 
 // 注册路由规则

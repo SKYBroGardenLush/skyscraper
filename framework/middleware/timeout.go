@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 	"log"
-	"skyscraper/framework"
+	"github.com/SKYBroGardenLush/skyscraper/framework"
 	"time"
 )
 

@@ -2,8 +2,8 @@ package services
 
 import (
 	"io"
-	"skyscraper/framework"
-	"skyscraper/framework/containerService/contract"
+	"github.com/SKYBroGardenLush/skyscraper/framework"
+	"github.com/SKYBroGardenLush/skyscraper/framework/containerService/contract"
 )
 
 type CustomLog struct {

@@ -8,8 +8,8 @@ package distributed
 //	"io/ioutil"
 //	"os"
 //	"path/filepath"
-//	"skyscraper/framework"
-//	"skyscraper/framework/containerService/contract"
+//	"github.com/SKYBroGardenLush/skyscraper/framework"
+//	"github.com/SKYBroGardenLush/skyscraper/framework/containerService/contract"
 //	"syscall"
 //	"time"
 //)

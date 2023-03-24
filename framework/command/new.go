@@ -10,8 +10,8 @@ import (
 	"os"
 	"path"
 	"path/filepath"
-	"skyscraper/framework/cobra"
-	"skyscraper/framework/utils"
+	"github.com/SKYBroGardenLush/skyscraper/framework/cobra"
+	"github.com/SKYBroGardenLush/skyscraper/framework/utils"
 	"strings"
 	"time"
 )

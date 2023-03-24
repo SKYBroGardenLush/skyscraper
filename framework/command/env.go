@@ -2,9 +2,9 @@ package command
 
 import (
 	"fmt"
-	"skyscraper/framework/cobra"
-	"skyscraper/framework/containerService/contract"
-	"skyscraper/framework/utils"
+	"github.com/SKYBroGardenLush/skyscraper/framework/cobra"
+	"github.com/SKYBroGardenLush/skyscraper/framework/containerService/contract"
+	"github.com/SKYBroGardenLush/skyscraper/framework/utils"
 )
 
 // initEnvCommand 获取env相关的命令

@@ -9,16 +9,16 @@ import (
 	"os"
 	"os/exec"
 	"path/filepath"
-	"skyscraper/framework"
-	"skyscraper/framework/cobra"
-	"skyscraper/framework/containerService/contract"
-	"skyscraper/framework/utils"
+	"github.com/SKYBroGardenLush/skyscraper/framework"
+	"github.com/SKYBroGardenLush/skyscraper/framework/cobra"
+	"github.com/SKYBroGardenLush/skyscraper/framework/containerService/contract"
+	"github.com/SKYBroGardenLush/skyscraper/framework/utils"
 	"time"
 )
 
 // devConfig 代表调试模式的配置信息
 type devConfig struct {
-	Port    string   // 调试模式最终监听的端口，默认为8070
+	Port    string // 调试模式最终监听的端口，默认为8070
 	Backend struct { // 后端调试模式配置
 		RefreshTime   int    // 调试模式后端更新时间，如果文件变更，等待3s才进行一次更新，能让频繁保存变更更为顺畅, 默认1s
 		Port          string // 后端监听端口， 默认 8072

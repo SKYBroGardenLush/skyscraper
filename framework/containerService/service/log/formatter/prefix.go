@@ -1,6 +1,6 @@
 package formatter
 
-import "skyscraper/framework/containerService/contract"
+import "github.com/SKYBroGardenLush/skyscraper/framework/containerService/contract"
 
 func Prefix(level contract.LogLevel) string {
 	prefix := ""

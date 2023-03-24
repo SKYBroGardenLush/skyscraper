@@ -2,7 +2,7 @@ package kernel
 
 import (
 	"net/http"
-	"skyscraper/framework"
+	"github.com/SKYBroGardenLush/skyscraper/framework"
 )
 
 // KernelService 引擎服务

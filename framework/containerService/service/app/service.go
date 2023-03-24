@@ -4,8 +4,8 @@ import (
 	"errors"
 	"flag"
 	"path/filepath"
-	"skyscraper/framework"
-	"skyscraper/framework/utils"
+	"github.com/SKYBroGardenLush/skyscraper/framework"
+	"github.com/SKYBroGardenLush/skyscraper/framework/utils"
 )
 
 // App 代表skyscraper框架的App实现

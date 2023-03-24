@@ -2,10 +2,10 @@ package command
 
 import (
 	"fmt"
-	"skyscraper/framework/containerService/contract"
+	"github.com/SKYBroGardenLush/skyscraper/framework/containerService/contract"
 
 	"github.com/kr/pretty"
-	"skyscraper/framework/cobra"
+	"github.com/SKYBroGardenLush/skyscraper/framework/cobra"
 )
 
 // initConfigCommand 获取配置相关的命令
