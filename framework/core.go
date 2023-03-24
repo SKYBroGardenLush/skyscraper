@@ -22,7 +22,7 @@ func NewCore() *Core {
 	router["POST"] = NewTree()
 	router["PUT"] = NewTree()
 	router["DELETE"] = NewTree()
-	core := &Core{router: router, container: NewSkyscraperContainer()}
+	core := &Core{router: router}
 	return core
 }
 
@@ -116,6 +116,10 @@ func (c *Core) ServeHTTP(response http.ResponseWriter, request *http.Request) {
 /*
 容器功能
 */
+
+func (c *Core) SetContainer(container Container) {
+	c.container = container
+}
 
 func (c *Core) Bind(provider ServiceProvider) error {
 	return c.container.Bind(provider)

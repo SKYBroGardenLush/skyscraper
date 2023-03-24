@@ -64,7 +64,7 @@ func (Skyscraper *SkyscraperContainer) Bind(provider ServiceProvider) error {
 
 	Skyscraper.providers[key] = provider
 
-	// if provider is not defer
+	// if service is not defer
 	if provider.IsDefer() == false {
 		if err := provider.Boot(Skyscraper); err != nil {
 			return err
@@ -153,4 +153,14 @@ func (Skyscraper *SkyscraperContainer) make(key string, params []interface{}, fo
 
 	Skyscraper.instances[key] = inst
 	return inst, nil
+}
+
+// NameList 列出容器中所有服务提供者的字符串凭证
+func (Skyscraper *SkyscraperContainer) NameList() []string {
+	ret := []string{}
+	for _, provider := range Skyscraper.providers {
+		name := provider.Name()
+		ret = append(ret, name)
+	}
+	return ret
 }
